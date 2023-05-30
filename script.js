@@ -74,3 +74,76 @@ let currentUser; // currentUserName
 // alert(a + b);
 
 //11
+// 5 > 4 = true
+// "ананас" > "яблуко" = false
+// "2" > "12" = true
+// undefined == null = true
+// undefined === null = false
+// null == "\n0\n" = false
+// null === +"\n0\n" = false
+
+//12
+// let nameScript = "ECMAScript";
+// let message = prompt("Яка офіційна назва JavaScript", "");
+// if (message == nameScript) {
+//     alert("Правильно!");
+// } alert(`Не занєте? ${nameScript} !`);
+
+// let value = prompt('Яка "офіційна" назва JavaScript?', '');
+// if (value == 'ECMAScript') {
+//     alert('Правильно!');
+//     } else {
+//     alert('Ви не знаєте? ECMAScript!');
+// }
+
+//13
+// let message = prompt("Введіть число:");
+// if (message > 0) {
+//         alert(1);
+//     } else if (message < 0) {
+//         alert(-1);
+//     } else if (message == 0) {
+//         alert(0);
+// };
+
+// let value = prompt('Введіть число', 0);
+// if (value > 0) {
+//     alert( 1 );
+//     } else if (value < 0) {
+//     alert( -1 );
+//     } else {
+//     alert( 0 );
+// }
+
+//14
+// let result;
+// if (a + b < 4) {
+//   result = 'Нижче';
+// } else {
+//   result = 'Вище';
+// }
+// let result = (a + b < 4) ? 'Нижче' : 'Вище';
+
+//15
+// let message;
+// if (login == 'Працівник') {
+//   message = 'Привіт';
+// } else if (login == 'Директор') {
+//   message = 'Вітаю';
+// } else if (login == '') {
+//   message = 'Немає логіну';
+// } else {
+//   message = '';
+// }
+
+// let login = '';
+// let message = prompt(`Login: ${login}`);
+// (login == 'Працівник') ? alert('Привіт') :
+//     (login == 'Директор') ? alert('Вітаю') :
+//         (login == '') ? alert('Немає логіну') :
+//             '';
+
+// let message = (login == 'Працівник') ? 'Привіт' :
+//   (login == 'Директор') ? 'Вітаю' :
+//   (login == '') ? 'Немає логіну' :
+//   '';
