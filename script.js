@@ -147,3 +147,59 @@ let currentUser; // currentUserName
 //   (login == 'Директор') ? 'Вітаю' :
 //   (login == '') ? 'Немає логіну' :
 //   '';
+
+//16
+// alert(alert(1) || 2 || alert(3)); //спочатку 1, потім 2.
+// alert(alert(1) && alert(2));  //спочатку 1, а потім undefined.
+// alert(null || 2 && 3 || 4); //null || 3 || 4 //виведе 3.
+
+//17
+// Напишіть умову if, щоб перевірити, чи age знаходиться між 14 та 90 включно.
+
+// // let age = 50;
+// let age = 91;
+// let age = 15;
+// // let age = 0;
+// if (age >= 14 && age <= 90) {
+//     alert(`Hello! Your age is ${age}!`);
+// } else alert(`Buy! Your age is ${age}!`);
+
+//18
+//Напишіть умову if, щоб перевірити, чи значення age НЕ знаходиться між 14 та 90 включно.
+//Створіть два варіанти: перший з оператором НЕ !, другий — без нього.
+
+// if (age < 14 || age > 90) {
+//     alert(`Hello! Your age is ${age}!`);
+// } else alert(`Buy! Your age is ${age}!`);
+
+// if (!(age >= 14 && age <= 90)) {
+//     alert(`Hello! Your age is ${age}!`);
+// } else alert(`Buy! Your age is ${age}!`);
+
+//19
+// if (-1 || 0) alert( 'перший' ); //-1 виконається
+// if (-1 && 0) alert( 'другий' ); //не виконається
+// if (null || -1 && 1) alert( 'третій' ); //1 виконається
+
+//20
+// let userName = prompt('Хто там?', '');
+
+// if (userName === 'Admin') {
+
+//   let pass = prompt('Пароль?', '');
+
+//   if (pass === 'Господар') {
+//     alert( 'Ласкаво просимо!' );
+//   } else if (pass === '' || pass === null) {
+//     alert( 'Скасовано' );
+//   } else {
+//     alert( 'Неправильний пароль' );
+//   }
+
+// } else if (userName === '' || userName === null) {
+//   alert( 'Скасовано' );
+// } else {
+//   alert( 'Я вас не знаю' );
+// }
+
+//21
