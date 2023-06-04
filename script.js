@@ -203,3 +203,105 @@ let currentUser; // currentUserName
 // }
 
 //21
+// let sum = 0;
+// while (true) {
+//   let value = +prompt("Введіть число", '');
+//   if (!value) break;
+//   sum += value;
+// }
+// alert( 'Сума: ' + sum );
+
+//22
+// for (let i = 0; i < 10; i++) {
+//   if (i % 2 == 0) continue;
+//     alert(i);
+// }
+
+//23
+// for (let index = 2; index <= 10; index++) {
+//     if (index % 2 === 0) {
+//         alert(`Парне число від 2 до 10: ${index}`);
+//     }
+// }
+
+//24
+// for (let i = 0; i < 3; i++) {
+//   alert( `число ${i}!` );
+// }
+// let i = 0;
+// while (i < 3) {
+//     alert( `число ${i}!` );
+//     i++;
+// }
+
+//25
+// let num;
+
+// do {
+//   num = prompt("Введене число, більше за 100?", 0);
+// } while (num <= 100 && num);
+
+//26
+// let n = 10;
+// nextPrime:
+// for (let i = 2; i <= n; i++) { // для кожного i...
+//   for (let j = 2; j < i; j++) { // шукаємо дільник..
+//     if (i % j == 0) continue nextPrime; // не просте, беремо наступне i
+//   }
+//   alert( i ); // просте число
+// }
+
+//27
+// switch (browser) {
+//   case 'Edge':
+//     alert( "You've got the Edge!" );
+//     break;
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert( 'Ми підтримуємо і ці браузери' );
+//     break;
+//   default:
+//     alert( 'Маємо надію, що ця сторінка виглядає добре!' );
+// }
+
+// let browser = prompt('What your browser?');
+// if (browser == 'Edge') {
+//     alert("You've got the Edge!");
+// } else if (browser == 'Chrome'
+//  || browser == 'Firefox'
+//  || browser == 'Safari'
+//  || browser == 'Opera') {
+//     alert('Ми підтримуємо і ці браузери');
+// } else {
+//     alert('Маємо надію, що ця сторінка виглядає добре!');
+// }
+
+//28
+// let a = +prompt('a?', '');
+// if (a == 0) {
+//   alert( 0 );
+// }
+// if (a == 1) {
+//   alert( 1 );
+// }
+// if (a == 2 || a == 3) {
+//   alert( '2,3' );
+// }
+
+// let num = +prompt('number?', '');
+// switch (num) {
+//     case 0:
+//         alert( 0 );
+//         break;
+//     case 1:
+//         alert( 1 );
+//         break;
+//     case 2:
+//     case 3:
+//         alert( '2,3' );
+//         break;
+// }
+
+//29
